@@ -105,6 +105,7 @@ def main():
     #MAKE A DATAPIPELINE THAT READS THE CSV COLUMNS AND ITERATIVELY SEARCHES
 
     dataset = pd.read_excel('/Users/yuvvvvv/MFT/Environmental Non-profits in South-east Asia.xlsx')
+    pprint(dataset.columns)
 
     dataset['Social Medias'] = dataset['Name of organisation'].apply(get_social_media_urls)
     print(dataset)
