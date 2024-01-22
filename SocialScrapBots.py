@@ -88,22 +88,29 @@ def filter_social_media(searched_data):
     
     return filtered_sites
 
-def main():
-    search_query = input("Enter the topic you want to search: ")
-    #MAKE A DATAPIPELINE THAT READS THE CSV COLUMNS AND ITERATIVELY SEARCHES
 
-
-
-    html_content = google_search(search_query)
+def get_social_media_urls(organization_name):
+    # This function should perform the necessary steps to get social media URLs for a given organization name
+    # You can use your existing functions like google_search and extract_headings_and_links here
+    # Make sure to return the list of social media URLs
+    html_content = google_search(organization_name)
     if html_content:
         extracted_data = extract_headings_and_links(html_content)
-
         social_handles = filter_social_media(extracted_data)
-        pprint(social_handles)
+        return [entry['url'] for entry in social_handles]
+    return []
 
-        social_urls = []
-        for entry in social_handles:
-            social_urls.append(entry['url'])
+
+def main():
+    #MAKE A DATAPIPELINE THAT READS THE CSV COLUMNS AND ITERATIVELY SEARCHES
+
+    dataset = pd.read_excel('/Users/yuvvvvv/MFT/Environmental Non-profits in South-east Asia.xlsx')
+
+    dataset['Social Medias'] = dataset['Name of organisation'].apply(get_social_media_urls)
+    print(dataset)
+
+
+    
 
 
 
