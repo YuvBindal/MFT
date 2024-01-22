@@ -103,10 +103,13 @@ def get_social_media_urls(organization_name):
 
 def main():
     #MAKE A DATAPIPELINE THAT READS THE CSV COLUMNS AND ITERATIVELY SEARCHES
+    file_path = '/Users/yuvvvvv/MFT/EnvNP_SG.xlsx'
 
-    dataset = pd.read_excel('/Users/yuvvvvv/MFT/EnvNP_SG.xlsx')
+
+    dataset = pd.read_excel(file_path)
 
     dataset['Social Medias'] = dataset['Name of organisation'].apply(get_social_media_urls)
+    dataset.to_excel(file_path, index=False)
     print(dataset)
 
 
