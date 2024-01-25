@@ -107,14 +107,18 @@ def get_social_media_urls(organization_name):
 
 def main():
     #MAKE A DATAPIPELINE THAT READS THE CSV COLUMNS AND ITERATIVELY SEARCHES
-    file_path = '/Users/yuvvvvv/MFT/EnvNP_SG.xlsx'
+    countries = ['Malaysia','Indonesia','Cambodia','Brunei'] #COUNTRIES LEFT TO SEARCH 
 
 
-    dataset = pd.read_excel(file_path)
-
-    dataset['Social Medias'] = dataset['Name of organisation'].apply(get_social_media_urls)
-    dataset.to_excel(file_path, index=False)
-    print(dataset)
+    #Applies the social media scraper to each datafile
+    for country in countries:
+        file_path = f"./EnvNP_{country}.xlsx"
+        print(file_path)
+        print(pd.read_excel(file_path).columns)
+        dataset = pd.read_excel(file_path)
+        dataset['Social Medias'] = dataset['Name of organisation'].apply(get_social_media_urls)
+        dataset.to_excel(file_path, index=False)
+        print(dataset)
 
 
     
