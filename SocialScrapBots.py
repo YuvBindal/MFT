@@ -4,6 +4,8 @@ Strategy to Develop Web Scraping Bot:
 2. Filter the google searches using a vocabulary list of popular social media providers
 3. If found, open the link and then extract the respective information (for now just handles)
 4. If none found in the first 2 pages (limited to 2 pages to avoid lag) then move to the next
+5. Collate recent 3 posts from these websites and collate them into a seperate column
+6. Scrape latest activity from the social media websites.
 """
 
 import pandas as pd
@@ -99,6 +101,8 @@ def get_social_media_urls(organization_name):
         social_handles = filter_social_media(extracted_data)
         return [entry['url'] for entry in social_handles]
     return []
+
+
 
 
 def main():
