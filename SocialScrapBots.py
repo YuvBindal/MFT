@@ -17,8 +17,11 @@ import time
 from getpass import getpass
 import requests
 from pprint import pprint
+import os
 
 start_time = time.time()
+api_key = os.getenv("GOOGLE_CLOUD_API")
+
 
 social_media_sites = [
     "https://www.facebook.com/",
@@ -129,7 +132,7 @@ def extract_textual_content_from_link(link):
         return text
     else:
         # Print an error message if the request was not successful
-        print(f"Error: Unable to fetch the content from {url}. Status code: {response.status_code}")
+        print(f"Error: Unable to fetch the content from {link}. Status code: {response.status_code}")
         return None
 
 
@@ -160,11 +163,12 @@ def main():
 
     #after generating links, extract textual content from it
    #dataset['Mission_Description'] = dataset['Organisation_Link'].apply()
-    
+    print(api_key)
+
     text = extract_textual_content_from_link('https://www.nss.org.sg/index.aspx')
     print(text) #works
 
-    
+
 
 
     
