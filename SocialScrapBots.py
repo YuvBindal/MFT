@@ -142,14 +142,14 @@ def main():
 
 
     #Applies the social media scraper to each datafile
-    #for country in countries:
-    #    file_path = f"./EnvNP_{country}.xlsx"
-    #    print(file_path)
-    #    print(pd.read_excel(file_path).columns)
-    #    dataset = pd.read_excel(file_path)
-    #    dataset['Social Medias'] = dataset['Name of organisation'].apply(get_social_media_urls)
-    #    dataset.to_excel(file_path, index=False)
-    #    print(dataset)
+    for country in countries:
+        file_path = f"./EnvNP_{country}.xlsx"
+        print(file_path)
+        print(pd.read_excel(file_path).columns)
+        dataset = pd.read_excel(file_path)
+        dataset['Social Medias'] = dataset['Name of organisation'].apply(get_social_media_urls)
+        dataset.to_excel(file_path, index=False)
+        print(dataset)
 
     #Extraction of Mission and other insights from company websites
     
@@ -157,7 +157,7 @@ def main():
     #Next step after the LLM generation is to make RAG system and feedback function to improve retreival quality
 
     #testing right now with just the SG data
-   # dataset = pd.read_excel("./EnvNP_SG.xlsx")
+    # dataset = pd.read_excel("./EnvNP_SG.xlsx")
     #dataset['Organisation_Link'] = dataset['Name of organisation'].apply(get_first_link)
    # print(dataset)
 
