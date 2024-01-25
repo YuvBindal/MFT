@@ -100,9 +100,37 @@ def get_social_media_urls(organization_name):
         extracted_data = extract_headings_and_links(html_content)
         social_handles = filter_social_media(extracted_data)
         return [entry['url'] for entry in social_handles]
+    
+
     return []
 
+def get_first_link(organisation_name):
+    html_content = google_search(organisation_name)
+    if html_content:
+        extracted_data = extract_headings_and_links(html_content)
+        home_page = extracted_data[0]
+        return home_page['url']
+    return ''
 
+def extract_textual_content_from_link(link):
+    # Send an HTTP request to the URL
+    response = requests.get(link)
+
+    # Check if the request was successful (status code 200)
+    if response.status_code == 200:
+        # Parse the HTML content of the page
+        soup = BeautifulSoup(response.text, 'html.parser')
+
+        # Extract all text from the page
+        text = soup.get_text()
+        text = soup.get_text().replace('\n', ' ')
+
+
+        return text
+    else:
+        # Print an error message if the request was not successful
+        print(f"Error: Unable to fetch the content from {url}. Status code: {response.status_code}")
+        return None
 
 
 def main():
@@ -111,14 +139,32 @@ def main():
 
 
     #Applies the social media scraper to each datafile
-    for country in countries:
-        file_path = f"./EnvNP_{country}.xlsx"
-        print(file_path)
-        print(pd.read_excel(file_path).columns)
-        dataset = pd.read_excel(file_path)
-        dataset['Social Medias'] = dataset['Name of organisation'].apply(get_social_media_urls)
-        dataset.to_excel(file_path, index=False)
-        print(dataset)
+    #for country in countries:
+    #    file_path = f"./EnvNP_{country}.xlsx"
+    #    print(file_path)
+    #    print(pd.read_excel(file_path).columns)
+    #    dataset = pd.read_excel(file_path)
+    #    dataset['Social Medias'] = dataset['Name of organisation'].apply(get_social_media_urls)
+    #    dataset.to_excel(file_path, index=False)
+    #    print(dataset)
+
+    #Extraction of Mission and other insights from company websites
+    
+    #Go to home page link, extract all textual content, feed it into a LLM, let the LLM extract the mission and description of what the company does.
+    #Next step after the LLM generation is to make RAG system and feedback function to improve retreival quality
+
+    #testing right now with just the SG data
+   # dataset = pd.read_excel("./EnvNP_SG.xlsx")
+    #dataset['Organisation_Link'] = dataset['Name of organisation'].apply(get_first_link)
+   # print(dataset)
+
+    #after generating links, extract textual content from it
+   #dataset['Mission_Description'] = dataset['Organisation_Link'].apply()
+    
+    text = extract_textual_content_from_link('https://www.nss.org.sg/index.aspx')
+    print(text) #works
+
+    
 
 
     
