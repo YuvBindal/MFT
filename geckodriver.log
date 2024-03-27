@@ -4556,3 +4556,479 @@ DevTools listening on ws://127.0.0.1:59491/devtools/browser/fa63aeb3-0637-4da3-9
 JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3i1uQ4/y_/l/en_GB/Yy3UvLlQ5s2.js?_nc_x=Ij3Wp8lg5Kz, line 112: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
 1711521166401	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
 1711521179533	Marionette	INFO	Stopped listening on port 59496
+1711530117215	geckodriver	INFO	Listening on 127.0.0.1:62033
+1711530117701	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/k4/5t9w_3t17bx_h1kzys3r8tvh0000gn/T/rust_mozprofilehhfsH2"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1711530118520	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-no-sandbox"
+console.error: "Warning: unrecognized command line flag" "-ignore-certificate-errors"
+console.error: "Warning: unrecognized command line flag" "-log-level"
+console.error: "Warning: unrecognized command line flag" "-disable-notifications"
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1711530118765	Marionette	INFO	Listening on port 62039
+WebDriver BiDi listening on ws://127.0.0.1:62034
+1711530118877	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1711530118889	RemoteAgent	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"[::ffff:7f00:1]:62032","sslProxy":"[::ffff:7f00:1]:62032"}
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+DevTools listening on ws://127.0.0.1:62034/devtools/browser/903d6164-7cbb-4de6-8bfc-26850f4cc10b
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3i1uQ4/y_/l/en_GB/Yy3UvLlQ5s2.js?_nc_x=Ij3Wp8lg5Kz, line 112: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1711530148569	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1711530237520	Marionette	INFO	Stopped listening on port 62039
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3i4SY4/yK/l/en_GB/vJa_XAN4jOJ.js?_nc_x=Ij3Wp8lg5Kz, line 93: Script terminated by timeout at:
+a/d<@https://static.xx.fbcdn.net/rsrc.php/v3i4SY4/yK/l/en_GB/vJa_XAN4jOJ.js?_nc_x=Ij3Wp8lg5Kz:93:779
+
+1711530240932	geckodriver	INFO	Listening on 127.0.0.1:62387
+1711530241444	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/k4/5t9w_3t17bx_h1kzys3r8tvh0000gn/T/rust_mozprofileizd4Zh"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1711530242090	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-no-sandbox"
+console.error: "Warning: unrecognized command line flag" "-ignore-certificate-errors"
+console.error: "Warning: unrecognized command line flag" "-log-level"
+console.error: "Warning: unrecognized command line flag" "-disable-notifications"
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1711530242314	Marionette	INFO	Listening on port 62393
+WebDriver BiDi listening on ws://127.0.0.1:62388
+1711530242415	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1711530242420	RemoteAgent	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"[::ffff:7f00:1]:62386","sslProxy":"[::ffff:7f00:1]:62386"}
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+DevTools listening on ws://127.0.0.1:62388/devtools/browser/ae9da2ee-3d1c-46e2-9e4a-c09fdef3f046
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3i1uQ4/y_/l/en_GB/Yy3UvLlQ5s2.js?_nc_x=Ij3Wp8lg5Kz, line 112: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1711530272176	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1711530844798	Marionette	INFO	Stopped listening on port 62393
+1711530846767	geckodriver	INFO	Listening on 127.0.0.1:62853
+1711530847279	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/k4/5t9w_3t17bx_h1kzys3r8tvh0000gn/T/rust_mozprofileaWw1Qa"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1711530847973	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-no-sandbox"
+console.error: "Warning: unrecognized command line flag" "-ignore-certificate-errors"
+console.error: "Warning: unrecognized command line flag" "-log-level"
+console.error: "Warning: unrecognized command line flag" "-disable-notifications"
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1711530848185	Marionette	INFO	Listening on port 62859
+WebDriver BiDi listening on ws://127.0.0.1:62854
+1711530848284	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1711530848289	RemoteAgent	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"[::ffff:7f00:1]:62852","sslProxy":"[::ffff:7f00:1]:62852"}
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+DevTools listening on ws://127.0.0.1:62854/devtools/browser/548e09fc-cf80-459f-9c57-18fc73fadba8
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3i1uQ4/y_/l/en_GB/Yy3UvLlQ5s2.js?_nc_x=Ij3Wp8lg5Kz, line 112: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1711530878026	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1711530963097	Marionette	INFO	Stopped listening on port 62859
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/y2/r/gbSUGiqIYT5.js?_nc_x=Ij3Wp8lg5Kz, line 229: Script terminated by timeout at:
+Y/Q<@https://static.xx.fbcdn.net/rsrc.php/v3/y2/r/gbSUGiqIYT5.js?_nc_x=Ij3Wp8lg5Kz:229:3292
+
+1711530964726	geckodriver	INFO	Listening on 127.0.0.1:63098
+1711530965241	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/k4/5t9w_3t17bx_h1kzys3r8tvh0000gn/T/rust_mozprofileLuTnzT"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1711530965559	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-no-sandbox"
+console.error: "Warning: unrecognized command line flag" "-ignore-certificate-errors"
+console.error: "Warning: unrecognized command line flag" "-log-level"
+console.error: "Warning: unrecognized command line flag" "-disable-notifications"
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1711530965783	Marionette	INFO	Listening on port 63104
+WebDriver BiDi listening on ws://127.0.0.1:63099
+1711530965876	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1711530965880	RemoteAgent	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"[::ffff:7f00:1]:63097","sslProxy":"[::ffff:7f00:1]:63097"}
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+DevTools listening on ws://127.0.0.1:63099/devtools/browser/94244e0c-7436-4655-a1cb-0b424da13075
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3i1uQ4/y_/l/en_GB/Yy3UvLlQ5s2.js?_nc_x=Ij3Wp8lg5Kz, line 112: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1711530995748	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1711531075473	Marionette	INFO	Stopped listening on port 63104
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3i4SY4/yc/l/en_GB/Pb_fIlaAvVj.js?_nc_x=Ij3Wp8lg5Kz, line 95: Script terminated by timeout at:
+a/</q.current<@https://static.xx.fbcdn.net/rsrc.php/v3i4SY4/yc/l/en_GB/Pb_fIlaAvVj.js?_nc_x=Ij3Wp8lg5Kz:95:2239
+applyWithGuard@https://static.xx.fbcdn.net/rsrc.php/v3/y2/r/gbSUGiqIYT5.js?_nc_x=Ij3Wp8lg5Kz:70:10432
+c@https://static.xx.fbcdn.net/rsrc.php/v3/y2/r/gbSUGiqIYT5.js?_nc_x=Ij3Wp8lg5Kz:70:11166
+O@https://static.xx.fbcdn.net/rsrc.php/v3/y2/r/gbSUGiqIYT5.js?_nc_x=Ij3Wp8lg5Kz:229:2292
+U@https://static.xx.fbcdn.net/rsrc.php/v3/y2/r/gbSUGiqIYT5.js?_nc_x=Ij3Wp8lg5Kz:229:2893
+
+1711531076586	geckodriver	INFO	Listening on 127.0.0.1:63255
+1711531077097	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/k4/5t9w_3t17bx_h1kzys3r8tvh0000gn/T/rust_mozprofileZ7LtQ2"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1711531077337	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-no-sandbox"
+console.error: "Warning: unrecognized command line flag" "-ignore-certificate-errors"
+console.error: "Warning: unrecognized command line flag" "-log-level"
+console.error: "Warning: unrecognized command line flag" "-disable-notifications"
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1711531077487	Marionette	INFO	Listening on port 63261
+WebDriver BiDi listening on ws://127.0.0.1:63256
+1711531077635	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1711531077640	RemoteAgent	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"[::ffff:7f00:1]:63254","sslProxy":"[::ffff:7f00:1]:63254"}
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+DevTools listening on ws://127.0.0.1:63256/devtools/browser/ff8343c5-2fa4-4d48-851e-27a6f81856ad
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3i1uQ4/y_/l/en_GB/Yy3UvLlQ5s2.js?_nc_x=Ij3Wp8lg5Kz, line 112: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1711531108046	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1711531187679	Marionette	INFO	Stopped listening on port 63261
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/y2/r/gbSUGiqIYT5.js?_nc_x=Ij3Wp8lg5Kz, line 229: Script terminated by timeout at:
+Y/Q<@https://static.xx.fbcdn.net/rsrc.php/v3/y2/r/gbSUGiqIYT5.js?_nc_x=Ij3Wp8lg5Kz:229:3292
+
+1711531190317	geckodriver	INFO	Listening on 127.0.0.1:63423
+1711531190827	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/k4/5t9w_3t17bx_h1kzys3r8tvh0000gn/T/rust_mozprofile63iweF"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1711531191064	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-no-sandbox"
+console.error: "Warning: unrecognized command line flag" "-ignore-certificate-errors"
+console.error: "Warning: unrecognized command line flag" "-log-level"
+console.error: "Warning: unrecognized command line flag" "-disable-notifications"
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1711531191211	Marionette	INFO	Listening on port 63429
+WebDriver BiDi listening on ws://127.0.0.1:63424
+1711531191358	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1711531191362	RemoteAgent	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"[::ffff:7f00:1]:63422","sslProxy":"[::ffff:7f00:1]:63422"}
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+DevTools listening on ws://127.0.0.1:63424/devtools/browser/3f14a70b-a698-4dc2-8873-c5b2d4dcdf69
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3i1uQ4/y_/l/en_GB/Yy3UvLlQ5s2.js?_nc_x=Ij3Wp8lg5Kz, line 112: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1711531221418	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1711531317788	Marionette	INFO	Stopped listening on port 63429
+1711531319840	geckodriver	INFO	Listening on 127.0.0.1:63611
+1711531320359	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/k4/5t9w_3t17bx_h1kzys3r8tvh0000gn/T/rust_mozprofileqcR5ZI"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1711531320629	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-no-sandbox"
+console.error: "Warning: unrecognized command line flag" "-ignore-certificate-errors"
+console.error: "Warning: unrecognized command line flag" "-log-level"
+console.error: "Warning: unrecognized command line flag" "-disable-notifications"
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1711531320769	Marionette	INFO	Listening on port 63617
+WebDriver BiDi listening on ws://127.0.0.1:63612
+1711531320917	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1711531320921	RemoteAgent	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"[::ffff:7f00:1]:63610","sslProxy":"[::ffff:7f00:1]:63610"}
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+DevTools listening on ws://127.0.0.1:63612/devtools/browser/6948b949-5468-4791-9b1a-b56dd182bec1
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3i1uQ4/y_/l/en_GB/Yy3UvLlQ5s2.js?_nc_x=Ij3Wp8lg5Kz, line 112: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1711531350696	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1711531428966	Marionette	INFO	Stopped listening on port 63617
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3i4SY4/yc/l/en_GB/Pb_fIlaAvVj.js?_nc_x=Ij3Wp8lg5Kz, line 791: Script terminated by timeout at:
+n@https://static.xx.fbcdn.net/rsrc.php/v3i4SY4/yc/l/en_GB/Pb_fIlaAvVj.js?_nc_x=Ij3Wp8lg5Kz:791:584
+
+1711531430733	geckodriver	INFO	Listening on 127.0.0.1:63788
+1711531431259	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/k4/5t9w_3t17bx_h1kzys3r8tvh0000gn/T/rust_mozprofilejNMbBY"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1711531431506	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-no-sandbox"
+console.error: "Warning: unrecognized command line flag" "-ignore-certificate-errors"
+console.error: "Warning: unrecognized command line flag" "-log-level"
+console.error: "Warning: unrecognized command line flag" "-disable-notifications"
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1711531431660	Marionette	INFO	Listening on port 63794
+WebDriver BiDi listening on ws://127.0.0.1:63789
+1711531431809	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1711531431813	RemoteAgent	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"[::ffff:7f00:1]:63787","sslProxy":"[::ffff:7f00:1]:63787"}
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+DevTools listening on ws://127.0.0.1:63789/devtools/browser/fdd8bd90-b4bb-49ed-bab9-0ffd7a4f5806
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3i1uQ4/y_/l/en_GB/Yy3UvLlQ5s2.js?_nc_x=Ij3Wp8lg5Kz, line 112: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1711531462283	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1711531475090	Marionette	INFO	Stopped listening on port 63794
+1711531476296	geckodriver	INFO	Listening on 127.0.0.1:63873
+1711531476817	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/k4/5t9w_3t17bx_h1kzys3r8tvh0000gn/T/rust_mozprofileNjObOH"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1711531477064	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-no-sandbox"
+console.error: "Warning: unrecognized command line flag" "-ignore-certificate-errors"
+console.error: "Warning: unrecognized command line flag" "-log-level"
+console.error: "Warning: unrecognized command line flag" "-disable-notifications"
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1711531477214	Marionette	INFO	Listening on port 63879
+WebDriver BiDi listening on ws://127.0.0.1:63874
+1711531477363	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1711531477367	RemoteAgent	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"[::ffff:7f00:1]:63872","sslProxy":"[::ffff:7f00:1]:63872"}
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+DevTools listening on ws://127.0.0.1:63874/devtools/browser/82befae8-58dd-46f6-b54d-6a3272e47971
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3i1uQ4/y_/l/en_GB/Yy3UvLlQ5s2.js?_nc_x=Ij3Wp8lg5Kz, line 112: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1711531507079	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1711531589280	Marionette	INFO	Stopped listening on port 63879
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/y2/r/gbSUGiqIYT5.js?_nc_x=Ij3Wp8lg5Kz, line 229: Script terminated by timeout at:
+Y/Q<@https://static.xx.fbcdn.net/rsrc.php/v3/y2/r/gbSUGiqIYT5.js?_nc_x=Ij3Wp8lg5Kz:229:3292
+
+1711531591032	geckodriver	INFO	Listening on 127.0.0.1:64057
+1711531591551	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/k4/5t9w_3t17bx_h1kzys3r8tvh0000gn/T/rust_mozprofileq9iPKH"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1711531591851	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-no-sandbox"
+console.error: "Warning: unrecognized command line flag" "-ignore-certificate-errors"
+console.error: "Warning: unrecognized command line flag" "-log-level"
+console.error: "Warning: unrecognized command line flag" "-disable-notifications"
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1711531592086	Marionette	INFO	Listening on port 64063
+WebDriver BiDi listening on ws://127.0.0.1:64058
+1711531592172	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1711531592178	RemoteAgent	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"[::ffff:7f00:1]:64056","sslProxy":"[::ffff:7f00:1]:64056"}
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+DevTools listening on ws://127.0.0.1:64058/devtools/browser/64e2e101-69c2-49ec-b3ff-c019dd984cbe
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3i1uQ4/y_/l/en_GB/Yy3UvLlQ5s2.js?_nc_x=Ij3Wp8lg5Kz, line 112: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1711531621866	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1711531707200	Marionette	INFO	Stopped listening on port 64063
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/y2/r/gbSUGiqIYT5.js?_nc_x=Ij3Wp8lg5Kz, line 229: Script terminated by timeout at:
+Y/Q<@https://static.xx.fbcdn.net/rsrc.php/v3/y2/r/gbSUGiqIYT5.js?_nc_x=Ij3Wp8lg5Kz:229:3292
+
+1711531708857	geckodriver	INFO	Listening on 127.0.0.1:64251
+1711531709379	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/k4/5t9w_3t17bx_h1kzys3r8tvh0000gn/T/rust_mozprofileM3uCAJ"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1711531709625	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-no-sandbox"
+console.error: "Warning: unrecognized command line flag" "-ignore-certificate-errors"
+console.error: "Warning: unrecognized command line flag" "-log-level"
+console.error: "Warning: unrecognized command line flag" "-disable-notifications"
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1711531709789	Marionette	INFO	Listening on port 64257
+WebDriver BiDi listening on ws://127.0.0.1:64252
+1711531709938	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1711531709942	RemoteAgent	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"[::ffff:7f00:1]:64250","sslProxy":"[::ffff:7f00:1]:64250"}
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+DevTools listening on ws://127.0.0.1:64252/devtools/browser/1a356447-38e2-4e93-99ee-77e18a9efa2c
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3i1uQ4/y_/l/en_GB/Yy3UvLlQ5s2.js?_nc_x=Ij3Wp8lg5Kz, line 112: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1711531740099	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1711531815045	Marionette	INFO	Stopped listening on port 64257
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/y2/r/gbSUGiqIYT5.js?_nc_x=Ij3Wp8lg5Kz, line 40: Script terminated by timeout at:
+h@https://static.xx.fbcdn.net/rsrc.php/v3/y2/r/gbSUGiqIYT5.js?_nc_x=Ij3Wp8lg5Kz:40:1461
+
+1711531816472	geckodriver	INFO	Listening on 127.0.0.1:64525
+1711531816993	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/k4/5t9w_3t17bx_h1kzys3r8tvh0000gn/T/rust_mozprofilezG9phx"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1711531817236	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-no-sandbox"
+console.error: "Warning: unrecognized command line flag" "-ignore-certificate-errors"
+console.error: "Warning: unrecognized command line flag" "-log-level"
+console.error: "Warning: unrecognized command line flag" "-disable-notifications"
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1711531817405	Marionette	INFO	Listening on port 64531
+WebDriver BiDi listening on ws://127.0.0.1:64526
+1711531817553	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1711531817558	RemoteAgent	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"[::ffff:7f00:1]:64524","sslProxy":"[::ffff:7f00:1]:64524"}
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+DevTools listening on ws://127.0.0.1:64526/devtools/browser/414b7be0-4616-49c8-a5b4-809e0c1c0dbb
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3i1uQ4/y_/l/en_GB/Yy3UvLlQ5s2.js?_nc_x=Ij3Wp8lg5Kz, line 112: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1711531847922	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1711531916542	Marionette	INFO	Stopped listening on port 64531
+1711531917960	geckodriver	INFO	Listening on 127.0.0.1:64725
+1711531918475	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/k4/5t9w_3t17bx_h1kzys3r8tvh0000gn/T/rust_mozprofilealtdgo"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1711531918753	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-no-sandbox"
+console.error: "Warning: unrecognized command line flag" "-ignore-certificate-errors"
+console.error: "Warning: unrecognized command line flag" "-log-level"
+console.error: "Warning: unrecognized command line flag" "-disable-notifications"
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1711531918892	Marionette	INFO	Listening on port 64731
+WebDriver BiDi listening on ws://127.0.0.1:64726
+1711531919039	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1711531919042	RemoteAgent	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"[::ffff:7f00:1]:64724","sslProxy":"[::ffff:7f00:1]:64724"}
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+DevTools listening on ws://127.0.0.1:64726/devtools/browser/38320b8c-f506-444b-becc-ea97c8bad37f
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3i1uQ4/y_/l/en_GB/Yy3UvLlQ5s2.js?_nc_x=Ij3Wp8lg5Kz, line 112: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1711531949203	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1711532037566	Marionette	INFO	Stopped listening on port 64731
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/y2/r/gbSUGiqIYT5.js?_nc_x=Ij3Wp8lg5Kz, line 40: Script terminated by timeout at:
+h@https://static.xx.fbcdn.net/rsrc.php/v3/y2/r/gbSUGiqIYT5.js?_nc_x=Ij3Wp8lg5Kz:40:1461
+
+1711532039381	geckodriver	INFO	Listening on 127.0.0.1:64976
+1711532039903	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/k4/5t9w_3t17bx_h1kzys3r8tvh0000gn/T/rust_mozprofileAXwxE7"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1711532040177	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-no-sandbox"
+console.error: "Warning: unrecognized command line flag" "-ignore-certificate-errors"
+console.error: "Warning: unrecognized command line flag" "-log-level"
+console.error: "Warning: unrecognized command line flag" "-disable-notifications"
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1711532040324	Marionette	INFO	Listening on port 64982
+WebDriver BiDi listening on ws://127.0.0.1:64977
+1711532040470	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1711532040476	RemoteAgent	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"[::ffff:7f00:1]:64975","sslProxy":"[::ffff:7f00:1]:64975"}
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+DevTools listening on ws://127.0.0.1:64977/devtools/browser/f28b8edb-b11d-4c1b-9533-2a985902c808
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3i1uQ4/y_/l/en_GB/Yy3UvLlQ5s2.js?_nc_x=Ij3Wp8lg5Kz, line 112: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1711532071488	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1711532151188	Marionette	INFO	Stopped listening on port 64982
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/y2/r/gbSUGiqIYT5.js?_nc_x=Ij3Wp8lg5Kz, line 229: Script terminated by timeout at:
+Y/Q<@https://static.xx.fbcdn.net/rsrc.php/v3/y2/r/gbSUGiqIYT5.js?_nc_x=Ij3Wp8lg5Kz:229:3292
+
+1711532152862	geckodriver	INFO	Listening on 127.0.0.1:65192
+1711532153371	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/k4/5t9w_3t17bx_h1kzys3r8tvh0000gn/T/rust_mozprofileUMtzpj"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1711532153646	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-no-sandbox"
+console.error: "Warning: unrecognized command line flag" "-ignore-certificate-errors"
+console.error: "Warning: unrecognized command line flag" "-log-level"
+console.error: "Warning: unrecognized command line flag" "-disable-notifications"
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1711532153789	Marionette	INFO	Listening on port 65198
+WebDriver BiDi listening on ws://127.0.0.1:65193
+1711532153935	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1711532153941	RemoteAgent	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"[::ffff:7f00:1]:65191","sslProxy":"[::ffff:7f00:1]:65191"}
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+DevTools listening on ws://127.0.0.1:65193/devtools/browser/0b6b62d1-fd1c-4938-a30d-9524bf7f3bf9
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3i1uQ4/y_/l/en_GB/Yy3UvLlQ5s2.js?_nc_x=Ij3Wp8lg5Kz, line 112: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1711532183683	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1711532269938	Marionette	INFO	Stopped listening on port 65198
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/y2/r/gbSUGiqIYT5.js?_nc_x=Ij3Wp8lg5Kz, line 229: Script terminated by timeout at:
+Y/Q<@https://static.xx.fbcdn.net/rsrc.php/v3/y2/r/gbSUGiqIYT5.js?_nc_x=Ij3Wp8lg5Kz:229:3292
+
+1711532271145	geckodriver	INFO	Listening on 127.0.0.1:65419
+1711532271664	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/k4/5t9w_3t17bx_h1kzys3r8tvh0000gn/T/rust_mozprofileJezEzg"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1711532272000	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-no-sandbox"
+console.error: "Warning: unrecognized command line flag" "-ignore-certificate-errors"
+console.error: "Warning: unrecognized command line flag" "-log-level"
+console.error: "Warning: unrecognized command line flag" "-disable-notifications"
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1711532272204	Marionette	INFO	Listening on port 65425
+WebDriver BiDi listening on ws://127.0.0.1:65420
+1711532272294	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1711532272298	RemoteAgent	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"[::ffff:7f00:1]:65418","sslProxy":"[::ffff:7f00:1]:65418"}
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+DevTools listening on ws://127.0.0.1:65420/devtools/browser/75027060-9f4a-4aa7-8464-56f062dfaa09
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3i1uQ4/y_/l/en_GB/Yy3UvLlQ5s2.js?_nc_x=Ij3Wp8lg5Kz, line 112: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1711532302536	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1711532391608	Marionette	INFO	Stopped listening on port 65425
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/y2/r/gbSUGiqIYT5.js?_nc_x=Ij3Wp8lg5Kz, line 229: Script terminated by timeout at:
+U@https://static.xx.fbcdn.net/rsrc.php/v3/y2/r/gbSUGiqIYT5.js?_nc_x=Ij3Wp8lg5Kz:229:2645
+
+1711532393968	geckodriver	INFO	Listening on 127.0.0.1:49252
+1711532394485	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/k4/5t9w_3t17bx_h1kzys3r8tvh0000gn/T/rust_mozprofileKbB9Lz"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1711532395084	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-no-sandbox"
+console.error: "Warning: unrecognized command line flag" "-ignore-certificate-errors"
+console.error: "Warning: unrecognized command line flag" "-log-level"
+console.error: "Warning: unrecognized command line flag" "-disable-notifications"
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1711532395293	Marionette	INFO	Listening on port 49258
+WebDriver BiDi listening on ws://127.0.0.1:49253
+1711532395482	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1711532395487	RemoteAgent	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"[::ffff:7f00:1]:49251","sslProxy":"[::ffff:7f00:1]:49251"}
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+DevTools listening on ws://127.0.0.1:49253/devtools/browser/1641d44a-3707-403e-8b84-2a7bf64451a0
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3i1uQ4/y_/l/en_GB/Yy3UvLlQ5s2.js?_nc_x=Ij3Wp8lg5Kz, line 112: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1711532425328	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3isiv4/yZ/l/en_GB/OkgdU-jGaXu.js?_nc_x=Ij3Wp8lg5Kz, line 320: IndexSizeError: Index or size is negative or greater than the allowed amount
+1711532524742	Marionette	INFO	Stopped listening on port 49258
+1711532526502	geckodriver	INFO	Listening on 127.0.0.1:49633
+1711532527016	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/k4/5t9w_3t17bx_h1kzys3r8tvh0000gn/T/rust_mozprofileSQnkgQ"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1711532527392	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-no-sandbox"
+console.error: "Warning: unrecognized command line flag" "-ignore-certificate-errors"
+console.error: "Warning: unrecognized command line flag" "-log-level"
+console.error: "Warning: unrecognized command line flag" "-disable-notifications"
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1711532527659	Marionette	INFO	Listening on port 49642
+WebDriver BiDi listening on ws://127.0.0.1:49634
+1711532527752	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1711532527757	RemoteAgent	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"[::ffff:7f00:1]:49632","sslProxy":"[::ffff:7f00:1]:49632"}
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+DevTools listening on ws://127.0.0.1:49634/devtools/browser/30f808dc-d578-4ff0-b526-1a71ac318805
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3i1uQ4/y_/l/en_GB/Yy3UvLlQ5s2.js?_nc_x=Ij3Wp8lg5Kz, line 112: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1711532558072	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1711532650108	Marionette	INFO	Stopped listening on port 49642
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3i4SY4/yc/l/en_GB/Pb_fIlaAvVj.js?_nc_x=Ij3Wp8lg5Kz, line 791: Script terminated by timeout at:
+n@https://static.xx.fbcdn.net/rsrc.php/v3i4SY4/yc/l/en_GB/Pb_fIlaAvVj.js?_nc_x=Ij3Wp8lg5Kz:791:584
+
+1711532651545	geckodriver	INFO	Listening on 127.0.0.1:49926
+1711532652050	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/k4/5t9w_3t17bx_h1kzys3r8tvh0000gn/T/rust_mozprofile0T6UPU"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1711532652344	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-no-sandbox"
+console.error: "Warning: unrecognized command line flag" "-ignore-certificate-errors"
+console.error: "Warning: unrecognized command line flag" "-log-level"
+console.error: "Warning: unrecognized command line flag" "-disable-notifications"
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1711532652629	Marionette	INFO	Listening on port 49932
+WebDriver BiDi listening on ws://127.0.0.1:49927
+1711532652720	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1711532652724	RemoteAgent	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"[::ffff:7f00:1]:49925","sslProxy":"[::ffff:7f00:1]:49925"}
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+DevTools listening on ws://127.0.0.1:49927/devtools/browser/5bb6a293-e860-4471-816c-f45b3d23a3e5
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3i1uQ4/y_/l/en_GB/Yy3UvLlQ5s2.js?_nc_x=Ij3Wp8lg5Kz, line 112: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1711532682511	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1711532773634	Marionette	INFO	Stopped listening on port 49932
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3i4SY4/yc/l/en_GB/Pb_fIlaAvVj.js?_nc_x=Ij3Wp8lg5Kz, line 96: Script terminated by timeout at:
+a/I<@https://static.xx.fbcdn.net/rsrc.php/v3i4SY4/yc/l/en_GB/Pb_fIlaAvVj.js?_nc_x=Ij3Wp8lg5Kz:96:1651
+a/L<@https://static.xx.fbcdn.net/rsrc.php/v3i4SY4/yc/l/en_GB/Pb_fIlaAvVj.js?_nc_x=Ij3Wp8lg5Kz:96:3018
+a/<@https://static.xx.fbcdn.net/rsrc.php/v3i4SY4/yc/l/en_GB/Pb_fIlaAvVj.js?_nc_x=Ij3Wp8lg5Kz:94:249
+applyWithGuard@https://static.xx.fbcdn.net/rsrc.php/v3/y2/r/gbSUGiqIYT5.js?_nc_x=Ij3Wp8lg5Kz:70:10432
+a/d</</<@https://static.xx.fbcdn.net/rsrc.php/v3i4SY4/yc/l/en_GB/Pb_fIlaAvVj.js?_nc_x=Ij3Wp8lg5Kz:93:925
+a/d</<@https://static.xx.fbcdn.net/rsrc.php/v3i4SY4/yc/l/en_GB/Pb_fIlaAvVj.js?_nc_x=Ij3Wp8lg5Kz:93:880
+a/d<@https://static.xx.fbcdn.net/rsrc.php/v3i4SY4/yc/l/en_GB/Pb_fIlaAvVj.js?_nc_x=Ij3Wp8lg5Kz:93:781
+
+1711532775243	geckodriver	INFO	Listening on 127.0.0.1:50190
+1711532775755	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/k4/5t9w_3t17bx_h1kzys3r8tvh0000gn/T/rust_mozprofileB0UiKw"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1711532776128	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-no-sandbox"
+console.error: "Warning: unrecognized command line flag" "-ignore-certificate-errors"
+console.error: "Warning: unrecognized command line flag" "-log-level"
+console.error: "Warning: unrecognized command line flag" "-disable-notifications"
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1711532776315	Marionette	INFO	Listening on port 50196
+WebDriver BiDi listening on ws://127.0.0.1:50191
+1711532776345	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1711532776384	RemoteAgent	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"[::ffff:7f00:1]:50189","sslProxy":"[::ffff:7f00:1]:50189"}
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+DevTools listening on ws://127.0.0.1:50191/devtools/browser/e6ebc762-c3d7-4d7f-8856-edf432a813a5
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3i1uQ4/y_/l/en_GB/Yy3UvLlQ5s2.js?_nc_x=Ij3Wp8lg5Kz, line 112: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1711532806950	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1711533379089	Marionette	INFO	Stopped listening on port 50196
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3i4SY4/yc/l/en_GB/Pb_fIlaAvVj.js?_nc_x=Ij3Wp8lg5Kz, line 93: Script terminated by timeout at:
+a/d<@https://static.xx.fbcdn.net/rsrc.php/v3i4SY4/yc/l/en_GB/Pb_fIlaAvVj.js?_nc_x=Ij3Wp8lg5Kz:93:779
+
+1711533379728	geckodriver	INFO	Listening on 127.0.0.1:50623
+1711533380239	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/k4/5t9w_3t17bx_h1kzys3r8tvh0000gn/T/rust_mozprofilegu4cel"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1711533380876	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-no-sandbox"
+console.error: "Warning: unrecognized command line flag" "-ignore-certificate-errors"
+console.error: "Warning: unrecognized command line flag" "-log-level"
+console.error: "Warning: unrecognized command line flag" "-disable-notifications"
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1711533381045	Marionette	INFO	Listening on port 50631
+WebDriver BiDi listening on ws://127.0.0.1:50624
+1711533381237	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1711533381242	RemoteAgent	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"[::ffff:7f00:1]:50622","sslProxy":"[::ffff:7f00:1]:50622"}
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+DevTools listening on ws://127.0.0.1:50624/devtools/browser/66b5e8da-4f8d-4b13-8992-28f5f36a5a1f
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3i1uQ4/y_/l/en_GB/Yy3UvLlQ5s2.js?_nc_x=Ij3Wp8lg5Kz, line 112: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1711533411745	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1711533576973	Marionette	INFO	Stopped listening on port 50631
